@@ -1,16 +1,16 @@
 /*
  * Motor.h
  *
- * Created: 30/04/2022 14.43.31
- *  Author: undefined
+ * Created: 5/3/2022 8:52:04 AM
+ *  Author: Algorithm (Oliver G.)
  */ 
+#include <stdbool.h>
 
+//Variables
+extern bool direction;
 
-#ifndef MOTOR_H_
-#define MOTOR_H_
-
-
-
-
-
-#endif /* MOTOR_H_ */
+//Functions
+void initMotor();
+void setSpeed(unsigned char speed);
+void switchDirection();
+void testMotor();
